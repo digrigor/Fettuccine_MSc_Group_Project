@@ -1,3 +1,6 @@
+#FetBASE
+FetBASE© - Fettucine Human LINE-1 & HERV Transposable Elements Platform is a fast, reliable and user-friendly interface for exploring Long Interspersed Nuclear Elements 1 (LINE-1) and Human Endogenous Virus (HERV) retrotransposons and their protein expression. This software was developed by the “Fettuccine” student group of Queen Mary University of London for the purposes of a software development group project (School of Biological Sciences and Chemistry – MSc Bioinformatics) under the invaluable guidance of Professor Conrad Bessant (https://bessantlab.org/) and Dr Fabrizio Smeraldi (https://goo.gl/k6jxCr). 
+
 # Fettuccine_MSc_Group_Project
 - Ensure you have the following modules install on your pc (by any means necessary e.g using pip install)
 - Flask
@@ -12,24 +15,6 @@
 
 - You also need to download MAMP or AAMP for linux (which does the MYSQL hosting for you) otherwise there will be no database
 - https://www.mamp.info/en/
-
-# Complete
-- Gantt Chart
-- Architecture
-- UI
-- All Pages complete
-
-
-link:
-https://academic.oup.com/gbe/article/8/12/3485/2680041
-
-
-# Useful Commands:
-- git clone (link)
-- git add (file)
-- git commit -m "comment goes here"
-- git push
-- git pull
 
 # README FOR INSTALL
 
