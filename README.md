@@ -5,8 +5,8 @@ FetBASE© - Fettucine Human LINE-1 & HERV Transposable Elements Platform is a fa
 
 The FetBASE© documentation can be found [here](https://github.com/digrigor/Fettuccine_MSc_Group_Project/blob/master/Website_Design/static/Fettuccine-Documentation.pdf).
 
-# Fettuccine_MSc_Group_Project
-- Ensure you have the following modules install on your pc (by any means necessary e.g using pip install)
+# Requirements
+Ensure you have the following modules installed and updated on your pc (by any means necessary e.g using pip install):
 - Flask
 - Pandas (Provides pytz, numpy)
 - Pytz
@@ -17,10 +17,9 @@ The FetBASE© documentation can be found [here](https://github.com/digrigor/Fett
 - Matplotlib
 - Pygraphviz (and graphviz, not via pip)
 
-- You also need to download MAMP or AAMP for linux (which does the MYSQL hosting for you) otherwise there will be no database
-- https://www.mamp.info/en/
+- It is recommended to download [MAMP](https://www.mamp.info/en/) or AAMP for linux (which does the MYSQL hosting for you) otherwise there will be no database
 
-# README FOR INSTALL
+# INSTALL
 
 ------------------------------
 USE python 32bit or 64bit. (different library files will be provided for each version)
