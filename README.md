@@ -28,7 +28,6 @@ Use virtualenv at your own discretion
 
 Open up CMD terminal and run:
 `pip install -r /path/to/requirements.txt`
-------------------------------
 
 Download the DB files from (available to everyone):
 
@@ -82,14 +81,20 @@ To run the software go to Website_Design and execute the commands based on OS:
 
 # run flask on WINDOWS using:
 OPEN COMMAND PROMPT, GO TO CORRECT DIRECTORY of file (cd ..\..)
-`set FLASK_APP=project.py
-set FLASK_DEBUG=1
-flask run`
+
+`set FLASK_APP=project.py`
+
+`set FLASK_DEBUG=1`
+
+`flask run`
 
 # run flask on LINUX using:
-`export FLASK_APP=project.py
-export FLASK_DEBUG=1
-flask run`
+
+`export FLASK_APP=project.py`
+
+`export FLASK_DEBUG=1`
+
+`flask run`
 
 ----------------------
 
