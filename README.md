@@ -27,7 +27,7 @@ USE python 32bit or 64bit. (different library files will be provided for each ve
 Use virtualenv at your own discretion
 
 Open up CMD terminal and run:
-'pip install -r /path/to/requirements.txt'
+`pip install -r /path/to/requirements.txt`
 ------------------------------
 
 Download the DB files from (available to everyone):
@@ -37,7 +37,7 @@ Download the DB files from (available to everyone):
 - Dropbox (3rd version): https://www.dropbox.com/s/0ajx2p0t9wbe3ib/genome_data_export.sql?dl=0
 
 Download the DB files from Apocrita located on (only for QMUL students/staff):
-'/data/SBCS-MSc-Bioinf/fettbase_sql'
+`/data/SBCS-MSc-Bioinf/fettbase_sql`
 
 Install Your Own MYSQL server of Choice (we Used MAMP for windows to make it simple to turn on / off)
 
@@ -57,7 +57,7 @@ If Pygraphviz does not load, you are still able to run the website as it is not 
 
 Create a database called genome_data:
 
-'CREATE DATABASE genome_data;'
+`CREATE DATABASE genome_data;`
 
 Import the SQL file into MySQL using:
 
@@ -67,7 +67,7 @@ If it doesn't work try the other ones.
 
 Import the file to the DB:
 
-'Path/to/Mysql.exe -u root -p genome_data < "path/to/genome_data.sql"'
+`Path/to/Mysql.exe -u root -p genome_data < "path/to/genome_data.sql"`
 
 User can also create an identical database from scratch by
 following the instructions  inside SQL_db_instructions folder.
@@ -82,14 +82,14 @@ To run the software go to Website_Design and execute the commands based on OS:
 
 # run flask on WINDOWS using:
 OPEN COMMAND PROMPT, GO TO CORRECT DIRECTORY of file (cd ..\..)
-'set FLASK_APP=project.py'
-'set FLASK_DEBUG=1'
-'flask run'
+`set FLASK_APP=project.py
+set FLASK_DEBUG=1
+flask run`
 
 # run flask on LINUX using:
-'export FLASK_APP=project.py'
-'export FLASK_DEBUG=1'
-'flask run'
+`export FLASK_APP=project.py
+export FLASK_DEBUG=1
+flask run`
 
 ----------------------
 
